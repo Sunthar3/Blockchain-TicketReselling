@@ -8,8 +8,7 @@ $email = $_POST['email'];
 $phone = $_POST['phone'];
 $adult = $_POST['adult'];
 $child = $_POST['child'];
-$checkin-date = $_POST['checkin-date'];
-$checkout-date = $_POST['checkout-date'];
+$journey-date = $_POST['journey-date'];
 if($name !=''||$email !=''){
 //Insert Query of SQL
 $query = mysql_query("insert into students(student_name, student_email, student_contact, student_address) values ('$name', '$email', '$contact', '$address')");
